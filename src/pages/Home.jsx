@@ -31,8 +31,8 @@ const Home = () => {
 
   return (
     <section className="pt-28 pb-20 md:pt-40 md:pb-32 font-sans">
-      <div className="h-full absolute inset-0 w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
-        <div className="absolute inset-0 w-full h-full bg-slate-900 z-0 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+      <div className="h-full absolute inset-0 w-full overflow-hidden  flex flex-col items-center justify-center">
+        <div className="absolute inset-0 w-full h-full  z-0 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
         <Boxes />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

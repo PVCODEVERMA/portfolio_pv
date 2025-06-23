@@ -39,7 +39,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800/50 relative overflow-hidden">
       {/* Background Boxes */}
       <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
-        <div className="absolute inset-0 w-full h-full bg-slate-900 z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+        <div className="absolute inset-0 w-full h-full  z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
         <Boxes />
       </div>
       
